@@ -13,6 +13,6 @@ jobs:
   
     steps:
       - name: say hello to users
-        run: echo"HEY FOLKS! WELCOME ON-BOARD"
+        run: echo "HEY FOLKS! WELCOME ON-BOARD"
       - name: say hello to username
-        run: echo"HELLO $USER"
+        run: echo "HELLO $USER"
