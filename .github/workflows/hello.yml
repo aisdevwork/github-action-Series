@@ -1,5 +1,6 @@
 # This is a Workflow name
 name: Hello
+# Runs on a trigger
 on:
   push:
     branches: [main]
@@ -8,8 +9,8 @@ on:
 jobs:
 
 #This is the name of the job
-  greet:
-    runs-on: ubuntu-latest
+  greet:  # JOB NAME
+    runs-on: ubuntu-latest  # GITHUB RUNNER
   
     steps:
       - name: say hello to users
