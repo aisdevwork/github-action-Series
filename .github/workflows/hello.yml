@@ -17,3 +17,9 @@ jobs:
         run: echo "HEY FOLKS! WELCOME ON-BOARD"
       - name: say hello to username
         run: echo "HELLO $USER"
+
+  details: 
+    runs-on: ubuntu_latest
+    steps:
+      - name: show what is the version of Python,Docker
+        run: docker --version && python --version
